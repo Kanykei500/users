@@ -1,0 +1,143 @@
+create table USERS (
+                       id SERIAL PRIMARY KEY ,
+                       first_name VARCHAR,
+                       login VARCHAR,
+                       working_year DATE,
+                       salary INT,
+                       age INT,
+                       description VARCHAR
+);
+
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (1, 'Midge', 'mpamment0@dot.gov', '1953-04-02', 451694, 1, 'synergize next-generation partnerships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (2, 'Burlie', 'bdurtnall1@huffingtonpost.com', '2022-05-17', 658155, 2, 'utilize synergistic markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (3, 'Talya', 'tkeeri2@constantcontact.com', '2020-12-28', 258862, 3, 'enhance magnetic schemas');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (4, 'Janaye', 'jtremblett3@cbslocal.com', '1993-07-18', 217301, 4, 'morph efficient applications');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (5, 'Tildie', 'tcarrivick4@woothemes.com', '1963-10-30', 148923, 5, 'morph interactive infomediaries');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (6, 'North', 'nmylchreest5@skyrock.com', '1996-11-23', 621219, 6, 'strategize turn-key partnerships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (7, 'Eula', 'ekydd6@parallels.com', '1965-12-19', 672870, 7, 'monetize turn-key functionalities');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (8, 'Alex', 'acassar7@google.es', '1986-07-05', 986751, 8, 'engage strategic methodologies');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (9, 'Siffre', 'svonbrook8@miitbeian.gov.cn', '1951-10-26', 462655, 9, 'benchmark dynamic solutions');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (10, 'Ray', 'rmedway9@uol.com.br', '1958-08-26', 663140, 10, 'enable global web-readiness');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (11, 'Theobald', 'tmanhooda@eventbrite.com', '1986-11-07', 516726, 11, 'revolutionize strategic platforms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (12, 'Niven', 'nrevanceb@wp.com', '2009-07-12', 951139, 12, 'e-enable killer paradigms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (13, 'Marty', 'mdennisc@hubpages.com', '1994-07-11', 454272, 13, 'streamline clicks-and-mortar users');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (14, 'Vidovik', 'volensbyd@fc2.com', '2005-06-05', 706410, 14, 'visualize extensible models');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (15, 'Bernhard', 'bdowgille@forbes.com', '1973-07-23', 938472, 15, 'enable cutting-edge systems');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (16, 'Nobie', 'ndowningf@npr.org', '2011-04-25', 621524, 16, 'transform intuitive content');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (17, 'Marty', 'miozefovichg@squidoo.com', '1950-04-20', 851535, 17, 'benchmark extensible communities');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (18, 'Mac', 'mmuncieh@youtube.com', '2000-03-21', 9138, 18, 'target real-time e-services');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (19, 'Nesta', 'nionescoi@biblegateway.com', '1962-10-21', 619273, 19, 'architect impactful systems');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (20, 'Rupert', 'rgoodbairnj@wsj.com', '1998-02-02', 420261, 20, 'enable extensible bandwidth');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (21, 'Stirling', 'ssnarttk@tinypic.com', '1974-07-22', 244133, 21, 'synthesize cross-media e-markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (22, 'Asia', 'awadesonl@4shared.com', '2006-01-12', 245050, 22, 'extend rich e-tailers');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (23, 'Reba', 'rmerrellm@nsw.gov.au', '1975-06-27', 477674, 23, 'matrix seamless relationships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (24, 'Araldo', 'acrimn@skyrock.com', '1967-07-30', 18393, 24, 'repurpose sexy ROI');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (25, 'Hillary', 'hnorthridgeo@mysql.com', '2005-08-05', 521778, 25, 'disintermediate granular methodologies');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (26, 'Joelly', 'jgrininp@ovh.net', '2008-09-21', 221332, 26, 'transform virtual e-services');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (27, 'Randene', 'rpermainq@networksolutions.com', '1976-11-26', 737606, 27, 'incubate cross-platform e-services');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (28, 'James', 'jskillr@people.com.cn', '1980-05-25', 146034, 28, 'envisioneer seamless eyeballs');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (29, 'Cchaddie', 'cberths@forbes.com', '2005-12-23', 507546, 29, 'enable mission-critical e-commerce');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (30, 'Jillian', 'jcoltmant@kickstarter.com', '1953-11-06', 29485, 30, 'scale killer schemas');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (31, 'Kakalina', 'kspurrioru@yandex.ru', '1986-02-26', 85941, 31, 'synergize virtual schemas');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (32, 'Natasha', 'nbattersonv@scribd.com', '2021-03-09', 28322, 32, 'unleash sticky networks');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (33, 'Adan', 'adoigw@cbsnews.com', '2020-09-16', 519728, 33, 'target end-to-end partnerships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (34, 'Kyle', 'ksillitoex@businesswire.com', '2001-01-01', 284853, 34, 'iterate granular experiences');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (35, 'Felic', 'fwalaky@ow.ly', '2015-05-17', 922626, 35, 'cultivate viral relationships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (36, 'Saree', 'smunkleyz@liveinternet.ru', '1955-12-20', 60847, 36, 'deploy intuitive platforms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (37, 'Katusha', 'kalldre10@npr.org', '2010-12-13', 537905, 37, 'scale visionary methodologies');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (38, 'Ware', 'wstreatfeild11@admin.ch', '1973-03-07', 558088, 38, 'optimize interactive niches');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (39, 'Reggie', 'rjorgensen12@hc360.com', '1981-03-01', 953134, 39, 'generate integrated e-commerce');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (40, 'Ora', 'ocoutts13@marketwatch.com', '2005-03-05', 504033, 40, 'architect real-time ROI');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (41, 'Waring', 'wsustin14@github.io', '1965-03-15', 464629, 41, 'orchestrate leading-edge users');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (42, 'Tomaso', 'tkhristoforov15@about.com', '1982-06-26', 62188, 42, 'maximize global action-items');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (43, 'Johann', 'jbarkley16@wordpress.com', '1951-05-31', 665427, 43, 'transform best-of-breed relationships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (44, 'Maddalena', 'mwestnedge17@mozilla.com', '1994-10-08', 36184, 44, 'scale integrated portals');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (45, 'Tallou', 'twincott18@netscape.com', '1987-03-23', 219082, 45, 'transform bricks-and-clicks channels');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (46, 'Bettye', 'brussen19@usda.gov', '2010-07-19', 441187, 46, 'facilitate 24/365 architectures');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (47, 'Oralia', 'ohowles1a@cdbaby.com', '1976-01-18', 674137, 47, 'grow 24/7 networks');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (48, 'Major', 'mbowhay1b@godaddy.com', '1992-04-15', 204064, 48, 'generate value-added niches');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (49, 'Rochell', 'rmckew1c@addtoany.com', '2020-07-06', 791831, 49, 'engineer front-end infomediaries');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (50, 'Ottilie', 'otames1d@reference.com', '2002-07-24', 942456, 50, 'visualize sexy convergence');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (51, 'Maryjo', 'msimonsson1e@tripod.com', '1985-01-20', 234224, 51, 'streamline efficient methodologies');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (52, 'Ilene', 'ibruggen1f@vimeo.com', '1981-02-20', 561788, 52, 'productize distributed infomediaries');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (53, 'Larisa', 'ltetsall1g@dagondesign.com', '2012-01-13', 539459, 53, 'unleash B2B metrics');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (54, 'Nata', 'nkynoch1h@macromedia.com', '1958-12-29', 286475, 54, 'transition granular functionalities');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (55, 'Regen', 'rvinnicombe1i@webeden.co.uk', '1998-04-15', 316983, 55, 'extend next-generation e-markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (56, 'Dougy', 'dziems1j@usatoday.com', '1950-09-17', 328376, 56, 'generate synergistic models');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (57, 'Edee', 'egoodlake1k@nyu.edu', '1953-04-05', 785972, 57, 'synthesize end-to-end e-services');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (58, 'Salli', 'sverbrugge1l@bigcartel.com', '1977-11-09', 180977, 58, 'innovate B2B interfaces');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (59, 'Rachelle', 'rdumberell1m@dropbox.com', '1987-08-08', 628090, 59, 'brand out-of-the-box synergies');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (60, 'Ophelie', 'oellph1n@trellian.com', '2001-05-22', 496820, 60, 'optimize best-of-breed interfaces');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (61, 'Gwenneth', 'gpenzer1o@t.co', '1952-02-06', 568417, 61, 'facilitate wireless architectures');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (62, 'Gerek', 'gmalyon1p@sakura.ne.jp', '1996-03-04', 21638, 62, 'facilitate ubiquitous partnerships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (63, 'Candis', 'candrin1q@theglobeandmail.com', '2016-12-07', 232414, 63, 'exploit holistic e-markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (64, 'Marlo', 'meat1r@geocities.com', '2002-04-20', 228290, 64, 'evolve strategic functionalities');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (65, 'Adda', 'abear1s@wikispaces.com', '1992-09-23', 338421, 65, 'extend killer convergence');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (66, 'Turner', 'tmuddimer1t@blogspot.com', '1963-07-06', 434128, 66, 'deliver extensible experiences');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (67, 'Jen', 'jbruggeman1u@youtube.com', '2008-09-21', 376841, 67, 'disintermediate user-centric ROI');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (68, 'Felicio', 'fbourner1v@creativecommons.org', '2003-07-25', 294451, 68, 'aggregate B2C interfaces');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (69, 'Carmelia', 'ccockshoot1w@msu.edu', '1981-04-09', 18135, 69, 'transform viral markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (70, 'Rip', 'rvina1x@netlog.com', '1964-05-19', 231005, 70, 'evolve ubiquitous ROI');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (71, 'Mario', 'mdureden1y@amazon.de', '2014-01-08', 202362, 71, 'orchestrate robust e-business');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (72, 'Clayton', 'cgimbrett1z@zimbio.com', '1985-10-20', 838186, 72, 'engage next-generation platforms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (73, 'Francesco', 'fpollock20@mysql.com', '1969-01-31', 580181, 73, 'synergize intuitive markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (74, 'Katharine', 'kwandtke21@nyu.edu', '1982-12-04', 139830, 74, 'engage back-end content');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (75, 'Marcelo', 'mgirardez22@yandex.ru', '1957-10-24', 524846, 75, 'utilize cross-media interfaces');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (76, 'Alix', 'arogerson23@boston.com', '2013-04-25', 512341, 76, 'enhance visionary convergence');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (77, 'Patton', 'pbenitti24@latimes.com', '1977-07-22', 856413, 77, 'aggregate cross-media niches');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (78, 'Bryanty', 'bhynde25@yandex.ru', '1970-03-27', 370215, 78, 'innovate wireless networks');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (79, 'Sol', 'srosenzveig26@illinois.edu', '2017-08-15', 217084, 79, 'enhance frictionless relationships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (80, 'Jamey', 'jovise27@mapquest.com', '1965-05-06', 805545, 80, 'deploy virtual paradigms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (81, 'Genevieve', 'gdurgan28@lycos.com', '2004-08-20', 597373, 81, 'leverage turn-key markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (82, 'Courtnay', 'ccross29@paginegialle.it', '1982-04-09', 248281, 82, 'implement dynamic users');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (83, 'Tammy', 'tdealtry2a@timesonline.co.uk', '1994-11-22', 661867, 83, 'target seamless supply-chains');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (84, 'Troy', 'tpitman2b@de.vu', '2007-12-08', 939105, 84, 'architect cross-media platforms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (85, 'Pattin', 'pogormley2c@macromedia.com', '1989-11-27', 567913, 85, 'synthesize bricks-and-clicks applications');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (86, 'Desmund', 'dforrestill2d@ted.com', '1994-07-31', 664497, 86, 'architect rich metrics');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (87, 'Dru', 'dlambswood2e@sphinn.com', '1957-12-29', 174327, 87, 'morph real-time web-readiness');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (88, 'Karlis', 'kdurant2f@cafepress.com', '1983-04-02', 136383, 88, 'engineer vertical infrastructures');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (89, 'Winni', 'wackeroyd2g@bloglovin.com', '2002-02-21', 338535, 89, 'syndicate B2B infomediaries');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (90, 'Rania', 'rramsdell2h@theguardian.com', '1986-12-13', 639058, 90, 'aggregate intuitive markets');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (91, 'Berky', 'bommundsen2i@addtoany.com', '1962-07-18', 284077, 91, 'implement synergistic bandwidth');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (92, 'Ivor', 'isunshine2j@upenn.edu', '1953-04-06', 690988, 92, 'envisioneer cross-media channels');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (93, 'Malia', 'myoungs2k@live.com', '1981-03-15', 695877, 93, 'benchmark 24/365 relationships');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (94, 'Oswald', 'ocordeux2l@bloglines.com', '1958-12-16', 751889, 94, 'utilize impactful architectures');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (95, 'Jeanna', 'jadolthine2m@blinklist.com', '1950-09-28', 75204, 95, 'synthesize dynamic platforms');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (96, 'Morgan', 'mlenham2n@china.com.cn', '1994-12-23', 417039, 96, 'benchmark scalable infrastructures');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (97, 'Kristyn', 'krichie2o@mozilla.org', '2009-09-25', 564766, 97, 'synthesize integrated experiences');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (98, 'Bo', 'bgimblet2p@joomla.org', '1999-10-20', 865904, 98, 'brand sticky communities');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (99, 'Donnell', 'dgoggin2q@slideshare.net', '2001-12-20', 113548, 99, 'leverage real-time ROI');
+insert into USERS (id, first_name, login, working_year, salary, age, description) values (100, 'Leanor', 'ltax2r@symantec.com', '2001-08-18', 267905, 100, 'monetize extensible metrics');
+
+select * from users;
+
+--Задачи для java8
+
+-- Создать таблицу "users",таблица users имеет поля id, login, salary, age, working_year, description (и другие при необходимости).
+--
+-- Выберите из таблицы users записи с id равным 1, 2, 3, 5, 14.
+select * from users where id =1 or id=2 or id=3 or id=5 or id=14;
+--
+-- Выберите из таблицы users записи с login равным 'google.com', 'facebook.com', 'gmail.com'.
+select * from users where login in ('ltax2r@symantec.com','google.com', 'facebook.com', 'gmail.com');
+--
+-- Выберите из таблицы users записи с id равным 1, 2, 3, 7, 9, и логином, равным 'user', 'admin', 'house' и зарплатой больше 3500.
+select * from users where id in (1,2,3,7,9) and  login in ('ltax2r@symantec.com','dgoggin2q@slideshare.net','user', 'admin', 'house') and  salary>3500;
+
+-- Выберите из таблицы users записи c id от 3 до 10 и зарплатой от 3000 до 5000.
+select * from users where id between 3 and 10  and salary between  3000 and 5000;
+--
+-- Выберите из таблицы users все записи так, чтобы вместо id было userId, вместо login – userLogin, вместо salary - userSalary.
+select id as userId, login as userLogin, salary as userSalary from users;
+-- При выборке из таблицы users создайте новое поле res, в котором будет число 3
+alter table users add column res int;
+select * from users;
+-- При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст
+select concat(salary,'  ',age) as res  from users;
+--
+-- При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст , а после возраста будут идти три знака '!'.
+select concat(salary,' ', age,'!!!') as res from users;
+-- При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст через дефис.
+select concat(salary,'-', age) as res from users;
+-- При выборке из таблицы users получите первые 5 символов логина и добавьте троеточие.
+select concat("right"(login,5),'...' )from users;
